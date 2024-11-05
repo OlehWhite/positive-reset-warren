@@ -78,7 +78,7 @@ export const LayoutHeader: FC = () => {
               {" "}
               {line1.trim()}
               <br />
-              {`Manalapan${line2}`}
+              {`Warren${line2}`}
             </Address>
           </ContactInfo>
         </Contact>

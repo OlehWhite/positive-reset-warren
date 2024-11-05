@@ -67,8 +67,8 @@ export const Footer: FC = () => {
   )?.link;
 
   const address = project?.address || "";
-  const [line1, line2] = address.includes("Manalapan")
-    ? address.split("Manalapan")
+  const [line1, line2] = address.includes("Warren")
+    ? address.split("Warren")
     : [address, ""];
 
   const [openModalWindow, setOpenModalWindow] = useState<boolean>(false);
@@ -116,7 +116,7 @@ export const Footer: FC = () => {
                 {" "}
                 {line1.trim()}
                 <br />
-                {`Manalapan${line2}`}
+                {`Warren${line2}`}
               </Address>
             </ContactInfo>
           </Contact>

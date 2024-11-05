@@ -62,9 +62,10 @@ export const LayoutHeader: FC = () => {
           </WrapperImg>
           <ContactInfo>
             <Tel href={`tel:${project?.tel}`}>{project?.tel}</Tel>
+
             <Link
               id="white-link"
-              href="https://www.positiveresetmanalapan.com/appointment-request"
+              href="https://www.positiveresetwarren.com/appointment-request"
             >
               {project?.email}
             </Link>
@@ -79,7 +80,7 @@ export const LayoutHeader: FC = () => {
               {" "}
               {line1.trim()}
               <br />
-              {`Manalapan${line2}`}
+              {`Warren${line2}`}
             </Address>
           </ContactInfo>
         </Contact>
